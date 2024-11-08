@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: red;
+}
+
+h2{
+    color: blue;
+}
+
+h2{
+    font-weight: 400;
+}
+
+p{
+    font-style: normal;
+}
+
+footer {
+    padding: auto;
+    color: rgb(123, 156, 255);
+    background-color: aquamarine;
+}
+
+#special{
+    background-color: skyblue;
+}
+
+a[href^='#'] {
+    background-color: rgb(37, 211, 21);
+}
+
+/* tidak terbaca hanya sekadar materi tambahan, seharusnya tulisan setelah gambar itu berwarna dengan warna yang telah ditentukan */
+img + p {
+    color: rgb(207, 195, 32);
+}
+
+/* tidak terbaca hanya sekadar materi tambahan, seharusnya tulisan setelah gambar itu berwarna dengan warna yang telah ditentukan dan ini bisa berwarna lagi setalah P ke 3 */
+img ~ p {
+    color: rgb(207, 195, 32);
+}
+
+/* Rule akan diterapkan pada elemen paragraf yang merupakan child dari elemen div */
+div > p {
+    background-color: rgb(7, 192, 78);
+  }
+
